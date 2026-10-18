@@ -34,7 +34,7 @@
             <td><?php echo $row['certifications']; ?></td>
             <td><?php echo $row['date_added']; ?></td>
             <td>
-                <a href="edit.php?applicant_id=<?php echo $row['applicant_id']; ?>">Edit</a> | 
+                <a href="update.php?applicant_id=<?php echo $row['applicant_id']; ?>">Edit</a> | 
                 <a href="delete.php?applicant_id=<?php echo $row['applicant_id']; ?>">Delete</a>
             </td>
         </tr>
